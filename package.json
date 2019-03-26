@@ -1,0 +1,25 @@
+{
+  "name": "netlify-functions-testing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "netlify-lambda serve ./functions",
+    "build": "netlify-lambda build ./functions",
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adsanderson/netlify-functions-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adsanderson/netlify-functions-testing/issues"
+  },
+  "homepage": "https://github.com/adsanderson/netlify-functions-testing#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3",
+    "tap": "^12.6.1"
+  }
+}
