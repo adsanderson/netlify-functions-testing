@@ -32,6 +32,6 @@ const toSquareThumbnail = (selected, possible) => {
 
     const [selectedSize] = selected.split('x');
 
-    if (selectedSize > size) return selected
+    if (size > selectedSize) return selected
     return possible.url
 }
